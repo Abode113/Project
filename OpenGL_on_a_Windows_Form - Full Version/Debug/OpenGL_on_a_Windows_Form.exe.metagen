@@ -1,0 +1,132 @@
+  OpenGL_on_a_Windows_Form.Form1.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly OpenGL_on_a_Windows_Form, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class OpenGLForm.COpenGL: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.NativeWindow
+    Void .ctor(System.Windows.Forms.Form, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Int32 Number_of_string : Public
+    Single Y0 : Public
+    Single Increase_x : Public
+    STRING stringObject1 : Public
+    STRING stringObject2 : Public
+    STRING stringObject3 : Public
+    STRING stringObject4 : Public
+    STRING stringObject5 : Public
+    STRING stringObject6 : Public
+    OneString OneStringObject : Public
+    Double screen : Public
+    Double screen2 : Public
+    Boolean string1 : Public, Static
+    Boolean string2 : Public, Static
+    Boolean string3 : Public, Static
+    Boolean string4 : Public, Static
+    Boolean string5 : Public, Static
+    Boolean string6 : Public, Static
+    Int32 k : Public, Static
+    Double Distance : Public, Static
+  Methods:
+    machine(): PrivateScope, Public, HideBySig
+    DataMember(): PrivateScope, Public, HideBySig
+    initializeArrayOfMachine(): PrivateScope, Public, HideBySig
+    vibrate(Double, Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    drawOneLine(): PrivateScope, Public, HideBySig
+    choseType(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    GETT(): PrivateScope, Public, HideBySig
+    SetForceTensionOfMachine(Double): PrivateScope, Public, HideBySig
+    SetMassOfMachine(Double): PrivateScope, Public, HideBySig
+    SetLengthOfMachine(Double): PrivateScope, Public, HideBySig
+    SetYmaxOfMachine(Double): PrivateScope, Public, HideBySig
+    SetFrequencyOfMachine(Double): PrivateScope, Public, HideBySig
+    getMassPerUnitMachine(): PrivateScope, Public, HideBySig
+    getVelocityMachine(): PrivateScope, Public, HideBySig
+    getFrequencyMachine(): PrivateScope, Public, HideBySig
+    getWaveLenghtMachine(): PrivateScope, Public, HideBySig
+    getNumberOfWavesMachine(): PrivateScope, Public, HideBySig
+    getFrequencyMachineMachine(): PrivateScope, Public, HideBySig
+    getLengthMachine(): PrivateScope, Public, HideBySig
+    getnumberOfZeroPointMachine(): PrivateScope, Public, HideBySig
+    getnumberOfHighPointMachine(): PrivateScope, Public, HideBySig
+    FixedEndZeroPoint_FreeEndHighPointMachine(Int32): PrivateScope, Public, HideBySig
+    FixedEndhighPoint_FreeEndZeroPointMachine(Int32): PrivateScope, Public, HideBySig
+    changeReady(Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    drawAllLine(): PrivateScope, Public, HideBySig
+    drawAfterNut(): PrivateScope, Public, HideBySig
+    vibrateLine(Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    gettest(): PrivateScope, Public, HideBySig
+    getAkkk(): PrivateScope, Public, HideBySig
+    setMass(Double): PrivateScope, Public, HideBySig
+    setForceTension(Double): PrivateScope, Public, HideBySig
+    SetDistance(Double): PrivateScope, Public, HideBySig
+    SetHigh(Double): PrivateScope, Public, HideBySig
+    Set_B_generalDamp(Double): PrivateScope, Public, HideBySig
+    SetRaduisOfString(Double): PrivateScope, Public, HideBySig
+    SetAirEtta(Double): PrivateScope, Public, HideBySig
+    SetAirRouu(Double): PrivateScope, Public, HideBySig
+    SetStringRouu(Double): PrivateScope, Public, HideBySig
+    SetYongModel(Double): PrivateScope, Public, HideBySig
+    getDistance(): PrivateScope, Public, HideBySig
+    GetMassPerUnit(): PrivateScope, Public, HideBySig
+    GetVelocity(): PrivateScope, Public, HideBySig
+    GetFrequency(): PrivateScope, Public, HideBySig
+    GetLambda(): PrivateScope, Public, HideBySig
+    GetLambda_GeneralDamp(): PrivateScope, Public, HideBySig
+    GetVelocity_GeneralDamp(): PrivateScope, Public, HideBySig
+    GetFrequency_GeneralDamp(): PrivateScope, Public, HideBySig
+    GetTimeLate_GeneralDamp(): PrivateScope, Public, HideBySig
+    GetAir_A_String(): PrivateScope, Public, HideBySig
+    GetAir_M(): PrivateScope, Public, HideBySig
+    GetAir_delta(): PrivateScope, Public, HideBySig
+    GetAir_frequency(): PrivateScope, Public, HideBySig
+    GetAir_TimeLate(): PrivateScope, Public, HideBySig
+    GetStringDamp(): PrivateScope, Public, HideBySig
+    change_view(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    DrawCover(Int32): PrivateScope, Public, HideBySig
+    Render(): PrivateScope, Public, HideBySig
+    SwapOpenGLBuffers(): PrivateScope, Public, HideBySig
+    get_Image_one_Number(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class OpenGL_on_a_Windows_Form.Form1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean stopMachine : Public
+    System.Windows.Forms.Button button9 : Public
+    Int32 vibratetheID : Public
+    Int32 harmonic : Public
+    System.Windows.Forms.Button button13 : Public
+    System.Windows.Forms.Button button12 : Public
+    Int32 damp : Public
+    Boolean FixedEnd : Public
+    System.Windows.Forms.Button button14 : Public
+    System.Windows.Forms.Button button15 : Public
+    System.Windows.Forms.Button button16 : Public
+    System.Windows.Forms.Button button17 : Public
+    System.Windows.Forms.Button button18 : Public
+    System.Windows.Forms.Button button19 : Public
+    System.Windows.Forms.Button button20 : Public
+    System.Windows.Forms.Button button21 : Public
+    Double timeCount : Public
+    System.Windows.Forms.Button button1 : Public
+    System.Windows.Forms.Label label1 : Public
+    System.Windows.Forms.TrackBar trackBar1 : Public
+    Int32 k : Public, Static
+  Methods:
+    button7_Click(Object, EventArgs): PrivateScope, Public, HideBySig
